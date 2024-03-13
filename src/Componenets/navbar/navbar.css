@@ -1,0 +1,250 @@
+
+
+.navbar {
+    height: 10rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.199);
+    color: rgb(248, 248, 248);
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.navbar .loko {
+    display: flex;
+}
+
+.navbar .Logo {
+   object-fit: cover;
+    height: 9rem;
+    width: 14.75rem;
+}
+
+.navbar .lokoText {
+    font-family: 'Russo One', sans-serif;
+    padding-top: 2.5rem;
+    padding-left: 1.5rem;
+    font-size: 3rem;
+}
+
+.navbar .linkMenuItem {
+    display: flex;
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+   
+}
+
+.navbar .linkMenuItem:hover {
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 147, 197);
+    padding: 0.6rem;
+    border-radius: 2rem;
+}
+
+/* scrolled part*/
+
+
+
+.navbar.scrolled {
+    height: 6rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+    color: rgb(48, 147, 197);
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.navbar.scrolled .loko {
+    display: flex;
+}
+
+.navbar.scrolled .Logo {
+   object-fit: cover;
+    height: 5rem;
+    width: 8.25rem;
+}
+
+.navbar.scrolled .lokoText {
+    font-family: 'Russo One', sans-serif;
+    padding-top: 1.5rem;
+    padding-left: 0.75rem;
+    font-size: 2rem;
+}
+
+.navbar.scrolled .linkMenuItem {
+    margin: 1rem;
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1rem;
+}
+
+.navbar.scrolled .linkMenuItem:hover {
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 147, 197);
+    padding: 0.6rem;
+    border-radius: 2rem;
+    
+    
+} 
+
+
+
+
+
+.linkMenu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menuIcon {
+    margin-right: 0.5rem;
+    cursor: pointer;
+    display: none; /* Initially hide for larger screens */
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+  }
+
+  .navbar.scrolled .bar {
+    background-color: rgb(48, 147, 197);
+  }
+  
+  .links {
+    display: flex;
+    
+  }
+
+ 
+ 
+  
+  .linkMenu.open .links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    width: 13rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+   right: 0;
+  }
+  
+  .linkMenu.open .links .linkMenuItem {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  @media (max-width: 1150px) {
+    .linkMenu {
+      position: relative;
+    }
+  
+    .menuIcon {
+      display: block;
+    }
+  
+    .linkMenu .links {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .navbar {
+      padding: 0;
+      padding-left: 2rem;
+      margin: 0;
+      height: 7rem;
+    }
+
+    .navbar .Logo {
+      height: 2.5rem;
+      width: 4rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar .lokoText {
+      display: none;
+    }
+    
+  }
+
+
+   @media only screen and (max-width: 670px) {
+    .navbar {
+      padding: 0;
+      padding-left: 2rem;
+      margin: 0;
+      height: 7rem;
+    }
+
+    .navbar .Logo {
+      height: 5rem;
+      width: 8.25rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar .lokoText {
+      display: none;
+    }
+    
+  }
+
+  @media only screen and (max-width: 450px) {
+    .navbar {
+      height: 9rem;
+    }
+    .linkMenu {
+      position: relative;
+    }
+  
+    .menuIcon {
+      display: block;
+    }
+  
+    .linkMenu .links {
+      display: none;
+    }
+    .lokoText {
+      display: none;
+    }
+     .navbar .Logo{
+      display: none;
+    }
+    .navbar.scrolled .Logo {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 460px) {
+    .navbar .Logo {
+      height: 3rem;
+      width: 5rem;
+    }
+    
+
+  } 

@@ -1,0 +1,103 @@
+.about{
+    width: 100%;
+    height: 58rem;
+    background-color: #F8F9FB;
+}
+.bigcontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F8F9FB;
+}
+.aboutotsikko{
+    font-size: 50px;
+    color: black;
+}
+.otsikkocontainer{
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.otsikkocontainer2{
+    width: 90%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.aboutteksti{
+    color: black;
+    font-size: 30px;
+    padding-bottom: 1.5rem;
+    font-family: 'Poppins';
+}
+.three-container{
+    width: 90%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.kuva{
+    object-fit: cover;
+    margin-top: 75px;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 26rem;
+}
+.desc{
+    width: 100%;
+    height: 200px;
+}
+.box-33{
+    width: 33%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.aboutotsikko2{
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'poppins';
+}
+@media only screen and (max-width: 1200px) {
+    .aboutotsikko {
+        font-size: 30px;
+    }
+
+    .aboutteksti {
+        font-size: 18px;
+    }
+
+    .aboutotsikko2 {
+        font-size: 24px;
+    }
+    .three-container {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .about {
+        height: 100rem;
+    }
+    .box-33 {
+        width: 90%;
+        height: 400px;
+    }
+    .desc {
+        height: 100px;
+    }
+    .kuva {
+        margin-top: 1px;
+        margin-bottom: 25px;
+    }
+    .otsikkocontainer2 {
+        margin-top: 30px;
+    }
+}

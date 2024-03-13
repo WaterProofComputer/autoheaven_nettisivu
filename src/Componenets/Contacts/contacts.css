@@ -1,0 +1,155 @@
+.contact {
+    margin: 0 auto;
+    background-color: rgb(111, 170, 209);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.textSection {
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 2.5rem 2.25rem 0 2.25rem;
+    font-family: 'poppins';
+    width: 50rem;
+}
+
+.textHeadline {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Poppins';
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-family: 'poppins';
+    padding-bottom: 20px;
+}
+
+
+.palaaBtn {
+    background-color: hsl(52, 0%, 98%);
+    font-weight: 700;
+    color: black ;
+    margin-top: 50px ;
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+}
+
+.palaaBtn:hover {
+    background-color: rgb(111, 170, 209);
+    color: white;
+    border: solid white;
+}
+
+.formSection {
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    margin: 1.25rem 1.5rem 1.25rem;
+    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+
+.formHeadline {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: black;
+    font-family: 'Poppins';
+}
+
+input {
+    width: 16rem;
+    height: 2.25rem;
+    box-sizing: border-box;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+    border: solid rgba(0, 0, 0, 0.532);
+}
+
+.viesti {
+    width: 33rem;
+    height: 8rem;
+}
+
+.sendBtn {
+    padding: 1.2rem;
+    border-radius: 2rem;
+    background-color: rgb(111, 170, 209);
+    margin-bottom: 2rem;
+    border: solid white;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.sendBtn:hover {
+    border: solid  rgb(111, 170, 209);
+    background-color: white;
+    color: rgb(111, 170, 209);
+}
+
+.formRowBtn {
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
+}
+
+textarea {
+    max-width: 33rem;
+    border: solid rgba(0, 0, 0, 0.532);
+    border-radius: 0.3rem;
+}
+
+.form {
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width: 1090px) {
+    .contact {
+        display: block;
+        max-width: 80vw;
+    }
+
+    .textSection {
+        width: 80vw;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    textarea {
+        max-width: 16rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    textarea {
+        max-width: 16rem;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .contact {
+        margin: auto;
+       
+    }
+
+    .formSection {
+        margin: 1rem 0 1rem 0;
+    }   
+}
+
+
+@media only screen and (max-width: 550px) {
+    .formSection {
+        border-radius: 1rem;
+    }
+    
+    
+}
+  

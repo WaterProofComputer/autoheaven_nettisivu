@@ -1,0 +1,54 @@
+.autopesut{
+    margin: 0;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+
+.Headline {
+    margin-top: 1.75rem;
+    padding: 2rem 0;
+    font-size: 1..25rem;
+}
+
+h1 {
+    font-family: 'Russo One';
+}
+
+.optionImage {
+    object-fit: cover;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 15rem;
+}
+
+
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  }
+  
+  .option {
+    
+    text-align: center;
+  margin: 10px;
+  width: calc(50% - 20px); /* Adjust as needed for spacing */
+    
+  }
+
+  .option p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: aliceblue;
+  }
+
+
+  @media (max-width: 690px) {
+    .option {
+      width: 100%; /* One option per row */
+    }
+  }
+
+

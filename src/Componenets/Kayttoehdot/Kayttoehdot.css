@@ -1,0 +1,28 @@
+.HeadlineEhdot {
+    margin: 2rem 0 2rem 3rem;
+}
+
+.ehot{
+    color: black;
+    background-color: white;
+    width: 65%;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.ehdotOtsikko {
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0.6rem;
+}
+
+.paraEhdot {
+    padding-bottom: 2rem;
+}
+
+.taa {
+    display: flex;
+    justify-content: center;
+}

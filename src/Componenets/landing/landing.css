@@ -1,0 +1,31 @@
+.landing {
+    position: relative;
+    margin-top: -10rem;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.video {
+    object-fit: cover;
+    width: 100vw;
+    
+}
+
+.overlayText {
+    position: absolute;
+    font-size: 1.2vw;
+    top: 65%;
+    left: 50%;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+@media only screen and (max-width: 450px) {
+    .overlayText {
+        font-size: 1.4vw;
+        color: rgba(255, 255, 255, 0.85);
+    }
+}

@@ -1,0 +1,137 @@
+.socials {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(35, 101, 134, 0.676);
+}
+
+.paragraph {
+    margin: 0.75rem 0 0 1.75rem;
+}
+
+.socialBtns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialImg {
+    object-fit: cover;
+    height: 2.75rem;
+    width: 2.75rem;
+    margin-right: 1.25rem;
+}
+
+.socialImg:hover {
+    cursor: pointer;
+}
+
+.yhteysRivi {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+.footerDownSection {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(29, 85, 113);
+}
+
+.infoSection {
+    max-width: 40rem;
+}
+
+.navSection {
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.navLink {
+    display: block;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.navLink:hover {
+    cursor: pointer;
+    text-decoration: underline solid rgb(255, 255, 255) ;
+    text-underline-offset: 0.4rem;
+}
+
+.ehdotSection {
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ehdotLink {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.ehdotLink:hover {
+    cursor: pointer;
+    text-decoration: underline solid rgb(255, 255, 255) ;
+    text-underline-offset: 0.4rem;
+}
+
+.addresSection {
+    max-width: 40rem;
+}
+
+.sectionHeadline {
+    margin: 0.75rem 0 1.25rem 0;
+    font-size: 1.75rem;
+    font-weight: 400;
+    text-decoration: underline solid rgb(255, 255, 255) ;
+    text-underline-offset: 0.4rem;
+}
+
+.yhteysIcon {
+    object-fit: cover;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.75rem;
+}
+
+.copyright {
+    background-color: rgb(29, 85, 113);
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .paragraph {
+        display: none;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .footerDownSection {
+        font-size: 0.85rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .footerDownSection {
+        padding-top: 0.5rem;
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .rivit {
+        display: grid;
+        place-items: center;
+    }
+    
+    
+}
+
